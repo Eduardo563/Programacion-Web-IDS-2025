@@ -21,6 +21,7 @@
 1. Ejercicio 1
     * [01: Pagina web con elementos básicos](/Ejercicios/01_Página_web_con_elementos_básicos.html)
 2. Ejercicio 2
+    * [02: Listas, multimedia y tabla](/Ejercicios/02_listas,multimedia_tablas.html)
 3. Ejercicio 3
 4. Ejercicio 4
 5. Ejercicio 5
