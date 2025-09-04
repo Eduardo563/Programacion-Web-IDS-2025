@@ -23,6 +23,6 @@
 2. Ejercicio 2
     * [02: Listas, multimedia y tabla](/Ejercicios/02_listas,multimedia_tablas.html)
 3. Ejercicio 3
-    * [03: Formularios, secciones y metadatos](/Ejercicios/03_Secciones_semantica.html)
+    * [03: Formularios, secciones y metadatos](/Ejercicios/03_Formularios_secciones_metadatos.html)
 4. Ejercicio 4
 5. Ejercicio 5
