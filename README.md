@@ -26,4 +26,4 @@
     * [03: Formularios, secciones y metadatos](/Ejercicios/03_Formularios_secciones_metadatos.html)
 ### Unidad III CSS
 1. Ejercicio 1
-    * [01: Formato de texto, fuentes y fondos](/Ejercicios/Unidad%202/01_Formatos_de_texto,colores,bordes.html)
+    * [01: Formato de texto, fuentes y fondos](/Ejercicios/Unidad2/01_Formatos_de_texto,colores,bordes.html)
