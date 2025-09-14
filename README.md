@@ -28,3 +28,5 @@
 ### Unidad III CSS
 1. Ejercicio 1
     * [01: Formato de texto, fuentes y fondos](/Ejercicios/Unidad%202/01_Formatos_de_texto,colores,bordes.html)
+2. Ejercicio 2
+    * [02: Tarjeta](/Ejercicios/Unidad%202/02_tarjeta.html)
