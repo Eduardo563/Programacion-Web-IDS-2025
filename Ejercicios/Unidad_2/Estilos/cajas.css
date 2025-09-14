@@ -1,0 +1,32 @@
+
+
+.box{
+    width: 100%;
+    height: 100px;
+    background: blue;
+    color: white;
+    border: 3px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.box-3{
+    width: 29%;
+}
+
+.inline-box{
+    display: inline;
+    background: steelblue;
+}
+
+.block-box{
+    background: orange;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.padding-box{
+    padding: 10px;
+}
