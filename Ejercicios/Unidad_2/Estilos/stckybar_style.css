@@ -1,0 +1,125 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 2px solid steelblue;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    background: #3C3E42;
+    height: 300vh;
+    min-height: 20vh;
+    max-height: 200vh;
+    max-width: 100vw;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    width: 95%;
+    background: #242527;
+    font-family: "Inter", sans-serif;
+    color: #EEEEEE;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.logo {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.logo_container{
+    width: 10%;
+    display: inline-block;
+    padding: .3%;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 0;
+}
+
+.link_container {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding: 1% 0;
+}
+
+.section{
+    text-decoration: none;
+    color: #EEEEEE;
+    margin: 8px;
+    padding: 8px 14px;
+    box-sizing: border-box;
+}
+
+.sign{
+    background: #fff;
+    color: #0F1316;
+    border-radius: 10px;
+}
+
+.login{
+    background: #3C3E42;
+    border-radius: 10px;
+}
+
+.search_container{
+    width: 26%;
+    height: 40px;
+    display: inline-block;
+    padding: 14px 14px 14px 0;
+    text-align: left;
+    vertical-align: middle;
+    background: #3C3E42;
+    border-radius: 14px;
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border: none;
+    padding-left: 10px;
+    background: none;
+    height: 20px;
+    width: 200px;
+}
+
+.button {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+
+.search_icon {
+    height: 25px;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero_background {
+    width: 100%;
+}
+
+
+

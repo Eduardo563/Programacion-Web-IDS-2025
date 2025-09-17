@@ -30,3 +30,5 @@
     * [01: Formato de texto, fuentes y fondos](/Ejercicios/Unidad_2/01_Formatos_de_texto,colores,bordes.html)
 2. Ejercicio 2
     * [02: Tarjeta](/Ejercicios/Unidad_2/02_tarjeta.html)
+3. Ejercicio 3
+    * [03:Header sticky](/Ejercicios/Unidad_2/03_Barra_sticky.html)
