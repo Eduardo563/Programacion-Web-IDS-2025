@@ -32,3 +32,5 @@
     * [02: Tarjeta](/Ejercicios/Unidad_2/02_tarjeta.html)
 3. Ejercicio 3
     * [03:Header sticky](/Ejercicios/Unidad_2/03_Barra_sticky.html)
+4. Ejercicio 4
+    * [04:Formulario con pseudoclases](/Ejercicios/Unidad_2/04_Formulario_con_estilos_pseudoclases_pseudoelementos.html)
