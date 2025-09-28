@@ -36,3 +36,5 @@
     * [04:Formulario con pseudoclases](/Ejercicios/Unidad_2/04_Formulario_con_estilos_pseudoclases_pseudoelementos.html)
 5. Ejercicio 5
     * [05: Sitio web con headbar y cards](/Ejercicios/Unidad_2/05_Sitioweb_headbar_cards.html)
+6. Ejercicio 6
+    * [06: Sitio web usando varaibles y funciones en css](/Ejercicios/Unidad_2/06_variables_funciones.html)
