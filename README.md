@@ -38,3 +38,5 @@
     * [05: Sitio web con headbar y cards](/Ejercicios/Unidad_2/05_Sitioweb_headbar_cards.html)
 6. Ejercicio 6
     * [06: Sitio web usando varaibles y funciones en css](/Ejercicios/Unidad_2/06_variables_funciones.html)
+7. Ejercicio 7
+    * [07: Uso de display Grid](/Ejercicios/Unidad_2/07_Uso_Grid.html)
