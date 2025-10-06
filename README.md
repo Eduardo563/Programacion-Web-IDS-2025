@@ -40,3 +40,5 @@
     * [06: Sitio web usando varaibles y funciones en css](/Ejercicios/Unidad_2/06_variables_funciones.html)
 7. Ejercicio 7
     * [07: Uso de display Grid](/Ejercicios/Unidad_2/07_Uso_Grid.html)
+8. Ejercicio 8
+    * [08: Sitio Responsivo](/Ejercicios/Unidad_2/08_Sitio_responisve.html)
