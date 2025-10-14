@@ -42,3 +42,5 @@
     * [07: Uso de display Grid](/Ejercicios/Unidad_2/07_Uso_Grid.html)
 8. Ejercicio 8
     * [08: Sitio Responsivo](/Ejercicios/Unidad_2/08_Sitio_responisve.html)
+9. Examem
+    * [Examen con uso de tailwind](/tailwind/src/Sitio_con_tailwind_daisyUI.html)
