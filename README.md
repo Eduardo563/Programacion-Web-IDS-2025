@@ -44,3 +44,7 @@
     * [08: Sitio Responsivo](/Ejercicios/Unidad_2/08_Sitio_responisve.html)
 9. Examem
     * [Examen con uso de tailwind](/tailwind/src/Sitio_con_tailwind_daisyUI.html)
+
+### Unidad JavaScript
+1. Ejercicio 1
+    * [01: Calculadora](/Ejercicios/Unidad_JavaScript/01_calculadora.html)

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <h2>Calculadora basica</h2>
+    <h3>El resultado se visualiza en consola</h3>
+    
+    <script>
+
+        let number1 = Number.parseInt(prompt("Ingrese su primer numero: "));
+        let number2 = Number.parseInt(prompt("Ingrese su segundo numero: "));
+        let operacion = prompt("Ingrese la operacion a realizar(+ - * /): ");
+
+        calculo(number1,number2,operacion);
+           
+        function calculo (number1,number2,operacion){
+            if (Number.isNaN(number1) ||  Number.isNaN(number2)){
+                console.log("No ingresó datos");
+            }
+            else{
+                let resultado;
+                switch(operacion){
+                    case "+":
+                        resultado = number1 + number2;
+                        console.log("El resultado de la suma de "+number1+ " y "+number2+ " es: ",resultado);
+                        break;
+                    case "-": 
+                        resultado = number1 - number2
+                        console.log("El resultado de la resta de "+number1+ " y "+number2+ " es: ",resultado);
+                        break;
+                    case "*":
+                        resultado = number1 * number2;
+                        console.log("El resultado de la multiplicacion de "+number1+ " y "+number2+ " es: ",resultado);
+                        break;
+                    case "/": 
+                        if(number2 === 0){
+                            console.log("No es posible dividir entre 0");
+                        }
+                        else{
+                            resultado = number1 / number2;
+                            console.log("El resultado de la division de "+number1+ " y "+number2+ " es: ",resultado)
+                        }
+                        break;
+                    default: 
+                        console.log("No ingresó una operación adecuada");
+                        break;
+                }
+            }
+            
+        }
+        
+
+    </script>
+</body>
+</html>
