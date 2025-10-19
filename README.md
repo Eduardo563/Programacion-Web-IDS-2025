@@ -48,3 +48,5 @@
 ### Unidad JavaScript
 1. Ejercicio 1
     * [01: Calculadora](/Ejercicios/Unidad_JavaScript/01_calculadora.html)
+2. Ejercicio 2
+    * [02: Mamipulacion de estilos](/Ejercicios/Unidad_JavaScript/02_Manipulacion_de_estilos/02_manipulacion_colores.html)
