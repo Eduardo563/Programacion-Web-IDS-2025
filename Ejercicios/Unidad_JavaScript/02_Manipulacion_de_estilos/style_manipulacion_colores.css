@@ -1,0 +1,109 @@
+:root{
+    --bg-color: white;
+    --red : red;
+    --blue: blue;
+    --green: green;
+    --restore-color: lightgray;
+    --box-shadow-color: #9E9E9E;
+    --text-color: black;
+    --restore-btn-color: black;
+}
+
+.background-red {
+    --bg-color: red;
+    --box-shadow-color: none;
+}
+
+.background-blue {
+    --bg-color: blue;
+    --box-shadow-color: none;
+}
+
+.background-green {
+    --bg-color: green;
+    --box-shadow-color: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter',sans-serif;
+    background: var(--bg-color);
+    transition: 0.3s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.card {
+    width: 50%;
+    padding: 3rem;
+    margin-top: 12px;
+    border: solid 1px var(--restore-color);
+    border-radius: 14px;
+    gap: 28px;
+    box-shadow: 10px 5px 5px var(--box-shadow-color);
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.title {
+    padding: 1rem;
+}
+
+.tittle-text {
+    font-size:xx-large;
+    margin: 16px ;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+    width: 100%;
+    background: var(--bg-color);
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 25px;
+    font-size: large;
+}
+
+.btn-red {
+    background: var(--red);
+}
+
+.btn-green {
+    background: var(--green);
+}
+
+.btn-blue {
+    background: var(--blue);
+}
+
+.btn-restore {
+    background: var(--restore-color);
+    color: var(--restore-btn-color);
+}
+
+.paragraph {
+    background-color: var(--bg-color);
+}
+
+.text {
+    font-size: large;
+}
