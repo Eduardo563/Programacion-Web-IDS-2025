@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="03_calculadora_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="cal-container">
+        <div class="calculator">
+            <input type="text" class="panel" id="panel">
+            <div class="buttons">
+                <button id="7" class="button">7</button>
+                <button id="8" class="button">8</button>
+                <button id="9" class="button">9</button>
+                <button id="/" class="button operators">/</button>
+                <button id="4" class="button">4</button>
+                <button id="5" class="button">5</button>
+                <button id="6" class="button">6</button>
+                <button id="*" class="button operators">*</button>
+                <button id="1" class="button">1</button>
+                <button id="2" class="button">2</button>
+                <button id="3" class="button">3</button>
+                <button id="+" class="button operators">+</button>
+                <button id="0" class="button">0</button>
+                <button id="=" class="button equals">=</button>
+                <button id="c" class="button reset">C</button>
+                <button id="-" class="button operators">-</button>
+            </div>
+        </div>
+        <div class="historial">
+            <h3>Historial de calculos</h3>
+            <button class="button reset" id="reset">C</button>
+            <div class="result-container" id="result-container">
+            </div>
+        </div>
+    </main>
+    <script src="03_calculadora_script.js"></script>
+</body>
+</html>
