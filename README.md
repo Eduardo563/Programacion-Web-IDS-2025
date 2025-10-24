@@ -49,4 +49,6 @@
 1. Ejercicio 1
     * [01: Calculadora](/Ejercicios/Unidad_JavaScript/01_calculadora.html)
 2. Ejercicio 2
-    * [02: Mamipulacion de estilos](/Ejercicios/Unidad_JavaScript/02_Manipulacion_de_estilos/02_manipulacion_colores.html)
+    * [02: Manipulacion de estilos](/Ejercicios/Unidad_JavaScript/02_Manipulacion_de_estilos/02_manipulacion_colores.html)
+3. Ejercicio 3
+    * [03: Calculadora](/Ejercicios/Unidad_JavaScript/03_Calculadora_visual/03_calculadora.html)
