@@ -52,3 +52,5 @@
     * [02: Manipulacion de estilos](/Ejercicios/Unidad_JavaScript/02_Manipulacion_de_estilos/02_manipulacion_colores.html)
 3. Ejercicio 3
     * [03: Calculadora](/Ejercicios/Unidad_JavaScript/03_Calculadora_visual/03_calculadora.html)
+4. Ejercicio 4
+    * [04: Lista de tareas](/Ejercicios/Unidad_JavaScript/04_lista_de_tareas/04_lista.html)
