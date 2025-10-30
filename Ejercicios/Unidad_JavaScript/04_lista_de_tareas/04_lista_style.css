@@ -74,7 +74,7 @@ body {
     box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.10);
 }
 
-.mark .paragraph{
+.mark{
     opacity: 0.6;
     text-decoration: line-through;
 }
