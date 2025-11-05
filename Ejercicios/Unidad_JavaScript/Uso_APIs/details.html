@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Details </title>
+</head>
+<body>
+    <h1 style="margin-bottom: 40px;">Detalles del gato</h1>
+    <div class="detailContainer" id="detailContainer">
+
+    </div>
+    <script type="module">
+        import {getDetail} from "./js/api.js"
+        //Se obtiene el id de la raza por medio de la URL
+        const breedId = new URLSearchParams(window.location.search).get('id');
+        const container = document.getElementById('detailContainer');
+
+        function details(info){
+            const breedInfo = info.breeds[0];
+            if (!breedInfo) {
+                container.innerHTML = '<p>No se encontró información de la raza para esta imagen.</p>';
+                return;
+            }
+            document.title = breedInfo.name;
+            container.innerHTML = `
+                <div class = "img-container"><img class= "image" src="${info.url}" alt="${breedInfo.name}"></div>
+                <div class = "info-container"><h2 style = "text-align:center;">${breedInfo.name}</h2>
+                <p><strong>Temperamento:</strong> ${breedInfo.temperament}</p>
+                <p><strong>Esperanza de vida:</strong> ${breedInfo.life_span} años</p>
+                <p><strong>Descripción:</strong> ${breedInfo.description}</p>
+                <p><strong>Amigable con niños:</strong> ${breedInfo.child_friendly}</p>
+                <p><strong>Amigable con perros:</strong> ${breedInfo.dog_friendly}</p>
+                <p><strong>Origen:</strong> ${breedInfo.origin}</p>
+                <p><strong>Enlace a Wikipedia:</strong> ${breedInfo.wikipedia_url ? `<a href="${breedInfo.wikipedia_url}" target="_blank">Más información</a>` : ''}</p></div>`;
+        }
+
+        async function viewDetails(){
+            if(breedId){
+                try{
+                    const cat = await getDetail(breedId);
+                    if(cat){
+                        details(cat);
+                    }
+                    else{
+                        container.innerHTML = "<p>No se pudieron cargar los detalles</p>";
+                    }
+                }catch(error){
+                    container.innerHTML = "<p>Error al cargar la informacion</p>";
+                }
+            }
+            else{
+                container.innerHTML = "<p>No se encontró un ID</p>";
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', viewDetails);
+        
+    </script>
+</body>
+</html>
