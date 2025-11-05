@@ -54,3 +54,5 @@
     * [03: Calculadora](/Ejercicios/Unidad_JavaScript/03_Calculadora_visual/03_calculadora.html)
 4. Ejercicio 4
     * [04: Lista de tareas](/Ejercicios/Unidad_JavaScript/04_lista_de_tareas/04_lista.html)
+5. Ejercicio 5
+    * [05: Tarjeta con datos base de un gato](/Ejercicios/Unidad_JavaScript/Uso_APIs/index.html)
